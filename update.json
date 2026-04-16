@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
-  "url": "https://github.com/biddqb/nexthotel/releases/download/v0.1.0/nexthotel-server.exe",
-  "notes": "Phiên bản đầu tiên."
+  "version": "0.2.0",
+  "url": "https://github.com/biddqb/nexthotel/releases/download/v0.2.0/nexthotel-server.exe",
+  "notes": "System tray icon (không còn cửa sổ console), tự động cập nhật, cải thiện tài liệu."
 }

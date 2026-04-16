@@ -1,6 +1,6 @@
 # nextHotel — dev notes
 
-Desktop PMS for a 12-room Vietnamese hotel. Tauri v2 + React + SQLite.
+Desktop PMS for Vietnamese hotels (unlimited rooms). Rust/Axum + React + SQLite.
 See `DESIGN.md` for the full spec. App code is under `app/`.
 
 ## Run

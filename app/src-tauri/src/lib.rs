@@ -6,6 +6,7 @@ pub mod error;
 pub mod handlers;
 pub mod models;
 pub mod state;
+pub mod tray;
 
 use crate::db::{db_path, Db};
 use crate::state::AppState;

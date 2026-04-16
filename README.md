@@ -1,6 +1,6 @@
 # nextHotel
 
-Desktop PMS (Property Management System) for independent Vietnamese hotels. Runs as a single Windows executable serving a web UI over the local network.
+Desktop PMS (Property Management System) for Vietnamese hotels. Runs as a single Windows executable serving a web UI over the local network. Supports unlimited rooms.
 
 ## Features
 

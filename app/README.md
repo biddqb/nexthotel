@@ -1,7 +1,7 @@
 # nextHotel — v0.1
 
-Offline-capable desktop PMS for a 12-room independent hotel.
-Tauri v2 + React + TypeScript + SQLite. Vietnamese UI.
+Offline-capable desktop PMS for Vietnamese hotels (unlimited rooms).
+Rust/Axum + React + TypeScript + SQLite. Vietnamese UI.
 
 ## First-time setup
 

@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-bg text-text font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  button:focus-visible,
+  [role="button"]:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  a:focus-visible {
+    @apply outline-none ring-2 ring-accent ring-offset-2 ring-offset-bg;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center gap-2 rounded px-3 h-9 text-sm font-medium
+           transition-colors disabled:opacity-50 disabled:pointer-events-none;
+  }
+  .btn-primary {
+    @apply btn bg-accent text-white hover:bg-accent-hover;
+  }
+  .btn-ghost {
+    @apply btn bg-transparent text-text hover:bg-stone-100;
+  }
+  .btn-danger {
+    @apply btn border border-red-600 text-red-600 hover:bg-red-50;
+  }
+  .input {
+    @apply block w-full h-9 rounded border border-border bg-surface px-3 text-sm
+           placeholder:text-stone-400 focus:border-accent focus:outline-none;
+  }
+  .label {
+    @apply text-xs font-medium text-muted;
+  }
+  .card {
+    @apply bg-surface border border-border rounded;
+  }
+}

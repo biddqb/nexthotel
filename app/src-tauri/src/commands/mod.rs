@@ -1,0 +1,16 @@
+pub mod audit;
+pub mod backup;
+pub mod charges;
+pub mod expenses;
+pub mod guests;
+pub mod hotel;
+pub mod housekeeping;
+pub mod night_audit;
+pub mod payments;
+pub mod rate_plans;
+pub mod reports;
+pub mod reservations;
+pub mod rooms;
+pub mod settings;
+pub mod shifts;
+pub mod updater;

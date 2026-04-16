@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+app/node_modules/
+app/dist/
+app/src-tauri/target/
+app/src-tauri/gen/
+app/.vite/
+
+# Windows installers aren't source
+*.msi
+*.exe
+
+# Local editor config
+.vscode/
+.idea/
+*.docx
+*.pdf

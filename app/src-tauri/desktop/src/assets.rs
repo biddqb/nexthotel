@@ -7,7 +7,7 @@ use axum::{
 use rust_embed::RustEmbed;
 
 #[derive(RustEmbed)]
-#[folder = "../dist/"]
+#[folder = "../../dist/"]
 #[exclude = "*.map"]
 struct Assets;
 

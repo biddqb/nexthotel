@@ -4,9 +4,12 @@ pub mod commands;
 pub mod db;
 pub mod error;
 pub mod handlers;
-pub mod models;
 pub mod state;
 pub mod tray;
+
+// Re-export shared domain types from the core crate so existing
+// `crate::models::Foo` paths in commands/handlers keep working.
+pub use nexthotel_core::models;
 
 use crate::db::{db_path, Db};
 use crate::state::AppState;
